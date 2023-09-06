@@ -1,0 +1,77 @@
+.header {
+    background: url(../images/fonts1.png);
+    display: flex;
+}
+
+.header_icon{
+    width: 198px;
+    margin: 30px 200px;
+    z-index: 1;
+}
+
+.header_icon-logo{
+    width: 200px; 
+    height: auto;
+    overflow: hidden;
+}
+
+.logo_navigation{
+    position: relative;
+    top: 25px;
+    z-index: 1;
+}
+
+.logo_navigation-menu{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    color: #235565;
+    font-weight: 600;
+    font-size: inherit;
+    font-family: var(--poppins-botton-font);
+}
+
+.logo_navigation-menu li{
+    padding: 20px;
+}
+
+.header_socials{
+    padding: 20px 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.header_socials a{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.background-block{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0;
+    border-radius: inherit;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+    transition: opacity .3s ease-out;
+}
+
+.background-block_image{
+    background: url(../images/dog.png)22.19% 52.09% / cover no-repeat, rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-height: 100%
+}
+
+.header_cover{
+    z-index: 1;
+}
