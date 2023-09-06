@@ -8,6 +8,8 @@
     --poppins-botton-font: 'Poppins', sans-serif;
     --roboto-font: 'Roboto', sans-serif;
     --signika-heading-font: 'Signika' sans-serif;
+    --ui-text-color: #647a81;
+    --ui-dark-accent-color: #235565;
     scroll-behavior: smooth;
 }
 
