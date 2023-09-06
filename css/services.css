@@ -57,3 +57,17 @@
 .border__block-services{
     display: inherit;
 }
+
+.block__first-services{
+    display: grid;
+    justify-items: center;
+    margin: 50px 150px;
+    text-align: center;
+}
+
+.block__second-services{
+    display: grid;
+    justify-items: center;
+    margin: 50px 150px;
+    text-align: center;
+}
