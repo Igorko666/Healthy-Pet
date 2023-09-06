@@ -8,8 +8,6 @@
     --poppins-botton-font: 'Poppins', sans-serif;
     --roboto-font: 'Roboto', sans-serif;
     --signika-heading-font: 'Signika' sans-serif;
-    --ui-text-color: #647a81;
-    --ui-dark-accent-color: #235565;
     scroll-behavior: smooth;
 }
 
@@ -26,5 +24,61 @@ img {
 }
 .container {
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.button-solid{
+    padding: 21px 36px;
+    border-radius: 5px;
+    font-size: 13.2px;
+    line-height: 1em;
+    letter-spacing: 0;
+    font-weight: 700;
+    color: #fff;
+    -webkit-box-shadow: 0 3px 10px 0 rgba(24,36,24,.28);
+    box-shadow: 0 3px 10px 0 rgba(24,36,24,.28);
+    background-color: #235565;
+    background-image: -webkit-gradient(linear,left bottom,left top,from(transparent),to(transparent));
+    background-image: -webkit-linear-gradient(bottom,transparent,transparent);
+    background-image: linear-gradient(0deg,transparent,transparent);
+    width: auto;
+    max-width: 100%;
+    word-break: break-all;
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+}
+.button-solid:hover{
+    background: #519ac9;
+}
+.button-secondary{
+    padding: 21px 36px;
+    border-radius: 5px;
+    font-size: 13.2px;
+    line-height: 1em;
+    letter-spacing: 0;
+    font-weight: 700;
+    color: #235565;
+    -webkit-box-shadow: 0 3px 10px 0 rgba(24,36,24,.28);
+    box-shadow: 0 3px 10px 0 rgba(24,36,24,.28);
+    border: 2px solid #235565;
+    width: auto;
+    max-width: 100%;
+    word-break: break-all;
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+}
+.button-secondary:hover{
+    background: #235565;
+    color: #fff;
 }
