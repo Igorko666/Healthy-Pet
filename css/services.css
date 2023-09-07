@@ -24,12 +24,20 @@
 }
 
 .services__icon{
+    display: inline-block;
     color: rgb(81, 154, 201);
     width: 100px;
     height: 100px;
     background: rgba(81, 154, 201, 0.09);
     border-radius: 50%;
     padding: 10px;
+    text-align: center;
+}
+
+.services__icon svg{
+    vertical-align: middle;
+    max-width: 100%; /* Для адаптивного зображення */
+    max-height: 100%;
 }
 
 .title{
@@ -47,6 +55,7 @@
     font-family: var(--poppins-botton-font);
     color: var(--ui-dark-accent-color);
     font-weight: bold;
+    margin: 20px;
 }
 
 .grid__item-inner{
@@ -62,28 +71,60 @@
     display: grid;
     justify-items: center;
     text-align: center;
+    margin: 50px -10px;
 }
 
 .block__second-services{
     display: grid;
     justify-items: center;
     text-align: center;
+    margin: 50px -10px;
 }
 
 .block__three-services{
     display: grid;
     justify-items: center;
     text-align: center;
+    margin: 50px -10px;
 }
 
 .block__four-services{
     display: grid;
     justify-items: center;
     text-align: center;
+    margin: 50px -10px;
 }
 
 .block__five-services{
     display: grid;
     justify-items: center;
     text-align: center;
+    margin: 50px -10px;
+}
+
+.button-slider{
+    min-width: 0;
+}
+
+.swiper-button-next{
+    color: black!important;
+    font-size: 20px;
+}
+
+.swiper-button-next::after{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.swiper-button-prev{
+    color: black!important;
+    font-size: 20px;
+}
+
+.swiper-button-prev::after{
+    font-size: 20px;
+    font-weight: bold;
+}
+.swiper-pagination-bullet{
+    background: black;
 }
