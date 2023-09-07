@@ -41,12 +41,15 @@
 }
 
 .title{
+    margin: 30px 30px;
     font-size: 24px;
     font-family: var(--poppins-botton-font);
     font-weight: 400;
 }
 
 .text__services-icon{
+    max-width: 80%;
+    margin: auto;
     color: var(--ui-text-color);
     font-family: var(--poppins-botton-font);
 }
@@ -55,7 +58,7 @@
     font-family: var(--poppins-botton-font);
     color: var(--ui-dark-accent-color);
     font-weight: bold;
-    margin: 20px;
+    margin: 20px 40px;
 }
 
 .grid__item-inner{
@@ -127,4 +130,14 @@
 }
 .swiper-pagination-bullet{
     background: black;
+}
+
+.swiper-slide{
+    flex-shrink: 0;
+    height: auto;
+    position: relative;
+    transition-property: transform;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
